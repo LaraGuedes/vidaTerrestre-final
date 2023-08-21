@@ -358,7 +358,7 @@ footer{
 }
 
 
-/*  */
+/* Responsividade */
 @media all and (max-width: 650px) {
     .item {width: 80%;}}
 
