@@ -192,6 +192,12 @@ a:hover{
     margin: 20px;
 }
 
+#ameacas img:hover{
+    background-color: #b0b0b0;
+    padding: 5px;
+    border-radius: 50%;
+}
+
 #ameacas h2{
     padding-bottom: 5%;
 }
@@ -226,6 +232,10 @@ a:hover{
 
 #florest-sustentavel ol{
     margin-left: 10%;
+}
+
+#titulo-floresta {
+    margin-bottom: 2%;
 }
 
 #titulo-floresta h2{
