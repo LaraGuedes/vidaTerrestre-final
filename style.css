@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    /* background-color:#283724; */
+    background-color: #97AE6F;
+    color: white;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 80px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+#menu{
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+    margin-top: 0.5%;
+}
+
+#menu li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+#menu li:hover{
+    background-color: #41730B;
+    cursor: pointer;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-image:url("./img/foto-aerea-aerea-de-uma-floresta-densa-com-belas-arvores-e-vegetacao.jpg");
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    padding-top: 50%;
+    padding-bottom:2%;
+    line-height: 0.6;
+}
+
+#subtitulo{
+    width: 80%;
+    color: white;
+    margin-left: 11%;
+    margin-bottom: 4%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+
+#acao{
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50%;
+    text-decoration: none;
+}
+
+#acao:hover{
+    background-color: #97AE6F;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.inicio{
+    width: 90%;
+    height: 60%;
+    margin: 5%;
+}
+
+.inicio-video{
+    width: 100%;
+    height: 60%;
+    margin: auto;
+}
+
+.inicio-conceito{
+    text-align: justify;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.inicio-conceito h3{
+    text-align: center;
+}
+
+.inicio-conceito p{
+    text-align: justify;
+}
+
+.linha{
+    padding: 20px;
+}
+
+.linha h2{
+    text-align: center;
+}
+
+ul li { 
+    list-style:none;
+}
+
+.linha-do-tempo {
+    position: relative;
+    max-width: 1024px;height: auto;
+    padding: 0px;margin: 0px auto;
+    overflow: hidden;
+}
+
+.marcador {
+    width: 50%;float: left;
+    height: 100%;position: absolute;
+    z-index: -1;border-right: 2px dashed #97AE6F;box-sizing: border-box;
+} 
+
+.ano {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #f0f0f0;
+    background-color: #41730B;
+    background-image: -webkit-linear-gradient(140deg,
+    rgba(255, 255, 255, .2) 50%,
+    transparent 50%,
+    transparent);
+    text-align: center;
+    margin-top:  7%;
+    margin: 1% auto;
+    clear: both;
+}
+
+.item {
+    width: 44%;
+    margin: 4% 0.5%;
+    padding: 1%;
+    float: right;
+}
+
+.item:nth-of-type(2n) {
+    float: left; 
+    margin: 4% 0.5%;
+    padding: 1%;
+}
+
+.item p {
+    color:rgb(66, 65, 60);
+    text-align: center;
+}
+
+.item p a {
+    color: #e44b4b;
+    text-align: center;
+}
+
+#ameacas{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+#ameacas img{
+    margin: 20px;
+}
+
+#ameacas h2{
+    padding-bottom: 5%;
+}
+
+.icone{
+    width: 51px;
+}
+
+
+#ongs{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#ongs p{
+    font-size: 10px;
+    margin-left: calc(50% - 60px);
+}
+
+#ongs a{
+    text-decoration: none;
+    color: #97AE6F;
+}
+
+.img-ongs{
+    width: 50%;
+}
+
+#sobre{
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    background-color: #97AE6F;
+}
+
+#img-sobre{
+    width: 80%;
+    padding: 5px;
+    margin-top:10px ;
+    background-color: #f0f0f0;
+    margin-left:10% ;
+}
+
+footer{
+    width: 100%;
+}
+
+#texto-footer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+#texto-footer a{
+    color: black;
+    text-decoration: none;
+}
+
+#texto-footer li:hover{
+    background-color: #97AE6F;
+}
+
+#creditos-footer{
+    width: 100%;
+    height: 40px;
+    background-color: #97AE6F;
+    text-align: center;
+}
+
+.img-footer{
+    width: 5%;
+    padding: 5px;
+}
+
+.alinhar{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+#icon-footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*  */
+@media all and (max-width: 650px) {
+    .item {width: 80%;}}
+
+@media screen and (max-width:400px) {
+    #menu li{
+        display:none ;
+    }
+}
+
+@media screen and (min-width:800px) {
+    header{
+        padding-top: 5%;
+    }
+    
+    #titulo{
+        margin-left: 3%;
+        padding-top: 15%;
+        padding-bottom:2% ;
+        font-size: 70px;
+    }
+    
+    #subtitulo{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+    }
+    
+    #acao{
+        margin-left: 3%;
+    }
+
+    .inicio{
+        display: flex;
+        justify-content: center;
+    }
+
+    .inicio-video{
+        display: flex;
+        width: 40%;
+        height: 40vh;
+    }
+
+    .inicio-video iframe {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .inicio-conceito{
+        width: 40%;
+    }
+
+    #ongs{
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+    }
+
+    #organize-ongs{
+        display: flex;
+        justify-content: center;
+    }
+
+    #ameacas{
+        height: 80%;
+    }
+    
+    .colunas{
+        float: left;
+        padding: 0 5%;
+        position: relative;
+    }
+    
+    .dois{
+        width: 40%;
+    }
+
+    .tres{
+        width: 20%;
+    }
+
+    .quatro{
+        width: 15%;
+    }
+
+    #sobre{
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    #img-sobre{
+        width: 20%;
+        transform: rotate(7deg);
+    }
+
+    #imagem{
+        transform: rotate(-7deg);
+    }
+}
