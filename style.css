@@ -367,24 +367,6 @@ footer{
     width: 100%;
 }
 
-/* Animação do JS/ inspiração by: Origamid */
-[data-anime]{
-    opacity: 0;
-    transition: .5s;
-}
-
-[data-anime="left"]{
-    transform: translate3d(-50px, 0, 0);
-}
-
-[data-anime="right"]{
-    transform: translate3d(50px, 0, 0);
-}
-
-[data-anime].animate{
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-}
 
 /* Responsividade */
 @media all and (max-width: 650px) {
@@ -444,7 +426,7 @@ footer{
     }
 
     #mapa{
-        margin-top: 32%;
+        margin-top: 37%;
     }
 
     #texto-organizar-floresta{
@@ -477,7 +459,7 @@ footer{
     }
 
     #ameacas{
-        height: 160vh;
+        height: 180vh;
     }
     
     .colunas{
