@@ -377,6 +377,10 @@ footer{
         display:none ;
     }
 
+    .inicio{
+        margin: 3%;
+    }
+
     #floresta-hr{
         display: none;
     }
